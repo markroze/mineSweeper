@@ -1,0 +1,100 @@
+body {
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    background-image: url("img/field.jpg");
+    background-size: cover;
+}
+.table {
+    border: solid black 2px;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-radius: 0.3em;
+    background-color: white;
+}
+.table td {
+    height: 1.4em;
+    width: 1.4em;
+    border: solid black 1px;
+}
+table td:hover {
+    cursor: pointer;
+}
+
+
+.revealed {
+    background-color: yellowgreen;
+    transition: 0.5s;
+
+}
+.flagged {
+    background-color: lightskyblue;
+    transition: 0.5s;
+    background-image: url("img/flag.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boom {
+    background-position: center;
+    background-image: url("img/bomb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.seconds {
+    color: red;
+    float: right;
+    overflow: visible ;
+    width: 3em;
+    font-size: 2em;
+    background-color: ivory;
+    border-radius: 0.3em;
+
+
+
+}
+.flagsAvailable {
+    color: red;
+    position: relative;
+    overflow: visible;
+    float: left;
+    width: 3em;
+    background-color: ivory;
+    border-radius: 0.3em;
+    font-size: 2em;
+}
+.flags {
+    color: red;
+    position: relative;
+    float: left;
+}
+.level {
+    background-color: lightskyblue;
+    color: black;
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 0.7em;
+    margin: 15px;
+    cursor: pointer;
+}
+.level:hover {
+    background-color: orange;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    color: ivory;
+}
+h1 {
+
+    overflow: auto;
+    float: none;
+}
+h2 {
+visibility: hidden;
+}
